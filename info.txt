@@ -1,0 +1,18 @@
+info:
+  command: /info
+  type: RUN_COMMAND
+  runcmd:
+  - '$text$&6&lTSFAlex SMP Information'
+  - '$text$&7Welcome to &aTSFAlex SMP&7.'
+  - '$text$&7This is a vanilla-style survival server where you can build, explore, and play with others.'
+  - '$text$&7Most things are allowed, but please be respectful in chat and voice chat.'
+  - '$text$ '
+  - '$text$&eUseful Commands:'
+  - '$text$&a/spawn &7- Teleport back to spawn.'
+  - '$text$&a/rtp &7- Random teleport somewhere in the world.'
+  - '$text$&a/tpa &7- Send a teleport request to another player.'
+  - '$text$&a/ah &7- Open the Auction House to trade items.'
+  - '$text$&a/dailyreward &7- Claim your daily reward.'
+  - '$text$ '
+  - '$text$&7There are more commands and features as you play.'
+  - '$text$&7Have fun and enjoy your time on &aTSFAlex SMP&7.'
