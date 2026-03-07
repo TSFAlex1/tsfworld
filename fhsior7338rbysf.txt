@@ -1,0 +1,31 @@
+discord:
+  command: /discord
+  type: TEXT
+  text:
+  - "&9Join our Discord: &bdiscord.gg/fAaf4AXmA7"
+
+website:
+  command: /website
+  type: RUN_COMMAND
+  runcmd:
+  - '[player] tellraw @s {"text":"Click here to open the website","color":"aqua","clickEvent":{"action":"open_url","value":"https://tsfalexsmp.vercel.app"}}'
+
+rules:
+  command: /rules
+  type: RUN_COMMAND
+  runcmd:
+  - '[player] tellraw @s {"text":"Click here to read the server rules","color":"yellow","clickEvent":{"action":"open_url","value":"https://tsfalexsmp.vercel.app/rules"}}'
+
+trash:
+  command: /trash
+  type: INVENTORY
+  title: "&cTrash"
+  size: 54
+
+welcome_new:
+  type: JOIN
+  first_join: true
+  runcmd:
+  - '[delay=20] tellraw %player% {"text":"Welcome to TSFAlex SMP!","color":"gold"}'
+  - '[delay=40] tellraw %player% {"text":"Type /spawn to begin your adventure.","color":"aqua"}'
+  - '[delay=60] tellraw %player% {"text":"Use /info to see useful commands.","color":"yellow"}'
